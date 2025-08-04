@@ -20,6 +20,7 @@ import {
   Analytics,
   School
 } from '@mui/icons-material';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
 import ProjectModal from './components/ProjectModal';
 import { projectsData } from './data/projects';
 
@@ -322,6 +323,9 @@ function App() {
           project={projectsData[selectedProject as keyof typeof projectsData]}
         />
       )}
+      
+      {/* Vercel Analytics */}
+      <VercelAnalytics />
     </Container>
   );
 }
