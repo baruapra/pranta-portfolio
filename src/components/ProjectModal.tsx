@@ -22,7 +22,8 @@ import {
   VideoLibrary,
   Analytics,
   Code,
-  Group
+  Group,
+  Store
 } from '@mui/icons-material';
 
 interface ProjectModalProps {
@@ -40,6 +41,7 @@ interface ProjectModalProps {
       demo?: string;
       github?: string;
       video?: string;
+      appStore?: string;
     };
     metrics?: {
       users?: string;
@@ -224,6 +226,16 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ open, onClose, project }) =
             variant="outlined"
           >
             Watch Demo
+          </Button>
+        )}
+        {project.links?.appStore && (
+          <Button
+            startIcon={<Store />}
+            href={project.links.appStore}
+            target="_blank"
+            variant="outlined"
+          >
+            App Store
           </Button>
         )}
         <Button onClick={onClose} variant="contained">

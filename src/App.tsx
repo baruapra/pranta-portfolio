@@ -53,7 +53,7 @@ function App() {
           Software Engineer & Data Scientist
         </Typography>
         <Typography variant="h6" sx={{ mb: 4, maxWidth: 600, mx: 'auto' }}>
-          Computer Science & Data Science student at Michigan State University, 
+          Recent Computer Science & Data Science graduate from Michigan State University, 
           passionate about building scalable applications and AI-driven solutions
         </Typography>
         
@@ -70,7 +70,7 @@ function App() {
             variant="outlined" 
             size="large"
             startIcon={<Download />}
-            href="/PrantaNirBarua_Resume (1).pdf"
+            href="/PrantaNirBaruaResume.pdf"
             download
           >
             Download Resume
@@ -78,7 +78,7 @@ function App() {
           <Button 
             variant="outlined" 
             size="large"
-            href="/PrantaNirBarua_Resume (1).pdf"
+            href="/PrantaNirBaruaResume.pdf"
             target="_blank"
           >
             View Resume
