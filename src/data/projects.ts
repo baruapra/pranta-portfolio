@@ -110,7 +110,7 @@ export const projectsData = {
     teamSize: 5,
     duration: "January 2025 - May 2025",
     links: {
-      video: "https://www.youtube.com/watch?v=RwhB-6ntZxg"
+      // video: "https://www.youtube.com/watch?v=RwhB-6ntZxg" // Removed demo video
     }
   },
 
